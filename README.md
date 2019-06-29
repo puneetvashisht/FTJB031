@@ -5,3 +5,5 @@
         - data types: string, boolean, object, functions*
         - DOM manipulation
         - JS vs Jquery
+        - functions are first class objects
+        - scopes in functions
