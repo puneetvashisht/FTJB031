@@ -3,6 +3,22 @@
     <title>Some Title</title>
 </head>
 <body>
-    <h2>Some content - change</h2>
+    <h2 id="message">Some content</h2>
+    <button onclick="changeTitle()">Change Title</button>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script>
+
+    function changeTitle(){
+        // console.log(document);
+        // var title = document.getElementById('message').innerText;
+        // var revTitle = title.split('').reverse().join('');
+        // document.getElementById('message').innerText = revTitle;
+        var title = $('#message').text();
+        $('#message').text(title.split('').reverse().join(''));
+
+    }
+</script>
+
+
 </html>
