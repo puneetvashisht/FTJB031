@@ -1,4 +1,4 @@
-// console.log('first node js program!!')
+console.log('first node js program!!')
 
 
 // function add(x, y){

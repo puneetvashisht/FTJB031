@@ -7,3 +7,5 @@
         - JS vs Jquery
         - functions are first class objects
         - scopes in functions
+    4. NPM
+        npm init: initialize a configuration to keep list of dependencies
