@@ -7,5 +7,8 @@
         - JS vs Jquery
         - functions are first class objects
         - scopes in functions
-    4. NPM
-        npm init: initialize a configuration to keep list of dependencies
+    4. NPM.
+        npm init: initialize a configuration to keep list of dependencies -> create package.json
+        npm i typescript -g
+        tsc <name>.ts
+
