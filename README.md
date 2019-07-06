@@ -11,4 +11,8 @@
         npm init: initialize a configuration to keep list of dependencies -> create package.json
         npm i typescript -g
         tsc <name>.ts
+        https://www.typescriptlang.org/docs/handbook/basic-types.html
+    5. Angular
+        https://cli.angular.io/ -> Seed project to work on 
+        Create a component
 
