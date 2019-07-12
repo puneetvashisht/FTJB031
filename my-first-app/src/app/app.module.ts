@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test.component';
 import { BadgeComponent } from './badge.component';
 
+
 @NgModule({
   declarations: [
     AppComponent, TestComponent, BadgeComponent
