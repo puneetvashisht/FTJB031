@@ -1,19 +1,28 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Badge } from './badge';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  title = 'Angular';
+export class AppComponent implements OnInit{
+ 
+  constructor(private http: HttpClient){
 
-  badges: Array<Badge> = [
-    {caption: "Angular", count: 2},
-    {caption: "React", count: 5},
-    {caption: "Ember", count: 3}
-  ]
+  }
+
+  ngOnInit() { 
+    console.log('Do some initialization')
+    this.http.get('http://localhost:4200/assets/dummy.json').toPromise()
+    .then( (res:Array<Badge>)=> {
+      console.log(res)
+      this.badges = res
+    })
+  }
+
+  badges: Array<Badge> = []
 
  
 

@@ -1,18 +1,22 @@
-<div>
- 
+<div class= "container">
+  <div class="row">
+    <div *ngFor="let badge of badges">
+    <my-card [title]="badge.caption" [summary]="badge.summary" [count]="badge.count"></my-card>
+    </div>
+  </div>
   <!-- <my-test></my-test> -->
 
-  <div *ngFor="let badge of badges">
+  <!-- <div *ngFor="let badge of badges">
     <my-badge  caption={{badge.caption}} count={{badge.count}}></my-badge>
-  </div>
+  </div> -->
 
   <!-- <my-badge caption="Inbox" count="23"></my-badge>
   <my-badge caption="Sent" count="2"></my-badge>
   <my-badge caption="Spam" count="233"></my-badge> -->
 
-  <hr/>
+  <!-- <hr/>
 
-  <my-badge caption="Votes" count="0"></my-badge>
+  <my-badge caption="Votes" count="0"></my-badge> -->
 
 </div>
 
