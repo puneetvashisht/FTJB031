@@ -1,0 +1,39 @@
+{
+  "courses": [
+    {
+      "id": 0,
+      "caption": "Angular",
+      "count": 2,
+      "summary": "Framework from Google!!"
+    },
+    {
+      "id": 1,
+      "caption": "React",
+      "count": 5,
+      "summary": "UI Library from Facebook!!"
+    },
+    {
+      "id": 2,
+      "caption": "Ember",
+      "count": 3,
+      "summary": "Yet another open source Framework"
+    },
+    {
+      "id": 3,
+      "caption": "JS",
+      "count": 3,
+      "summary": "Base programming language"
+    },
+    {
+      "id": 5,
+      "caption": "AngularJS",
+      "count": 2,
+      "summary": "Previous Version of Angular"
+    },
+    {
+      "caption": "Test1",
+      "summary": "Test Summary",
+      "id": 8
+    }
+  ]
+}

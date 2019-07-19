@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
 
   ngOnInit() { 
     console.log('Do some initialization')
-    this.http.get('http://localhost:4200/assets/dummy.json').toPromise()
+    this.http.get('http://localhost:3000/courses').toPromise()
     .then( (res:Array<Badge>)=> {
       console.log(res)
       this.badges = res

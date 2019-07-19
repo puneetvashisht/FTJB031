@@ -6,12 +6,13 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test.component';
 import { BadgeComponent } from './badge.component';
 import { CardComponent } from './components/card.component';
+import { AddCourseComponent } from './components/add-course.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent, TestComponent, BadgeComponent, CardComponent
+    AppComponent, TestComponent, BadgeComponent, CardComponent,AddCourseComponent
   ],
   imports: [
     BrowserModule, HttpClientModule

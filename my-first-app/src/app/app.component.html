@@ -1,4 +1,10 @@
 <div class= "container">
+
+  <div class="row">
+      <add-course></add-course>
+  </div>
+  <hr/>
+
   <div class="row">
     <div *ngFor="let badge of badges">
     <my-card [title]="badge.caption" [summary]="badge.summary" [count]="badge.count"></my-card>
