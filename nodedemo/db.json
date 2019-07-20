@@ -7,33 +7,25 @@
       "summary": "Framework from Google!!"
     },
     {
-      "id": 1,
-      "caption": "React",
-      "count": 5,
-      "summary": "UI Library from Facebook!!"
-    },
-    {
       "id": 2,
       "caption": "Ember",
       "count": 3,
       "summary": "Yet another open source Framework"
     },
     {
-      "id": 3,
-      "caption": "JS",
-      "count": 3,
-      "summary": "Base programming language"
-    },
-    {
-      "id": 5,
-      "caption": "AngularJS",
-      "count": 2,
-      "summary": "Previous Version of Angular"
-    },
-    {
-      "caption": "Test1",
+      "caption": "TestCourse",
       "summary": "Test Summary",
-      "id": 8
+      "id": 3
+    },
+    {
+      "caption": "T2",
+      "summary": "T2",
+      "id": 4
+    },
+    {
+      "caption": "T3",
+      "summary": "T3",
+      "id": 5
     }
   ]
 }

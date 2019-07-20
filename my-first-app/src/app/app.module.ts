@@ -7,6 +7,7 @@ import { TestComponent } from './test.component';
 import { BadgeComponent } from './badge.component';
 import { CardComponent } from './components/card.component';
 import { AddCourseComponent } from './components/add-course.component';
+import { CourseService } from './services/course.service';
 
 
 
@@ -17,7 +18,7 @@ import { AddCourseComponent } from './components/add-course.component';
   imports: [
     BrowserModule, HttpClientModule
   ],
-  providers: [],
+  providers: [CourseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

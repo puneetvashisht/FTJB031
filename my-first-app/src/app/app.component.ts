@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Badge } from './badge';
-import { HttpClient } from '@angular/common/http';
+import { CourseService } from './services/course.service';
 
 @Component({
   selector: 'app-root',
@@ -9,13 +9,13 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent implements OnInit{
  
-  constructor(private http: HttpClient){
+  constructor(private courseService: CourseService){
 
   }
 
   ngOnInit() { 
     console.log('Do some initialization')
-    this.http.get('http://localhost:3000/courses').toPromise()
+    this.courseService.findAllCourses()
     .then( (res:Array<Badge>)=> {
       console.log(res)
       this.badges = res
